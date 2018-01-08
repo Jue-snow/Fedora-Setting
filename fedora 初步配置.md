@@ -52,11 +52,11 @@ $ sudo vim config.json #在 shadowsocks 下新建 config.json 配置文件
 
 ```json
 {
-    "server":"45.77.202.39",
-    "server_port":4433,
+    "server":"0.0.0.0",
+    "server_port":443,
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"jzr123",
+    "password":"password",
     "timeout":300,
     "method":"aes-256-gcm",
     "fast_open": true,
